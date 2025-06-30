@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #
 # Indefinitely checks a CD is inserted, then plays it and ejects the CD
 
