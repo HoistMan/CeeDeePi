@@ -3,7 +3,7 @@
 Simple turntable-style CD player. Put in CD, start playing audio.
 
 ## Usage instructions
-Run install.sh from this directory to copy udev and service scripts to the proper locations.
+Run `install.sh` from this directory to copy udev and service scripts to the proper locations. `install.sh` should be run from the user you intend to run the CD Player service.
 Udev rules will trigger playing a CD on insertion, and stop playback on ejection.
 
 ## Requirements
