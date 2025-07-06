@@ -1,0 +1,2 @@
+# Trigger stop audio script on CD ejection
+ACTION=="change", SUBSYSTEM=="block", DISK_EJECT_REQUEST=="1", KERNEL=="sr*", RUN+="/lib/udev/scripts/stopplaycdservice.sh"
