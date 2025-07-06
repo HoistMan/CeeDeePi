@@ -1,2 +1,2 @@
 # Trigger play audio script on CD insertion or ejection
-ACTION=="change", SUBSYSTEM=="block", KERNEL=="sr*", RUN+="/lib/udev/scripts/playcdoninsert.sh"
+ACTION=="change", SUBSYSTEM=="block", KERNEL=="sr*", RUN+="/lib/udev/scripts/startplaycdservice.sh"

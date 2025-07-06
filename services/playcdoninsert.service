@@ -1,2 +1,8 @@
-# TODO
+[Unit]
+Description=Play audio from a CD
+After=network.target
 
+[Service]
+Type=simple
+ExecStart=logger "playcdoninsert.service was run"
+Restart=no
