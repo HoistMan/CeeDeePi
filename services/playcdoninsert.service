@@ -4,5 +4,5 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=logger "playcdoninsert.service was run"
+ExecStart=mplayer -cache 8192 -cache-min 60 cdda:// /dev/cdrom
 Restart=no
